@@ -7,14 +7,14 @@
 2. Downloaded the sage source code from this website.[https://github.com/datascience-intro/how2_WindowsOS10-\_2SageMath-2021](https://github.com/datascience-intro/how2_WindowsOS10-_2SageMath-2021)
 3. Using the above link, I used the information on: Ubuntu on Windows Subsystem for Linux (WSL) prerequisite installation
 4. I enabled hardware-assisted virtualization in my system. Mine is UEFI.
-5. Ran Powershell as an administrator and installed Windows Subsystem for Linux 'wsl --install'.
+5. Ran Powershell as an administrator and installed Windows Subsystem for Linux **wsl --install**.
 6. Immediately, the Ubuntu downloaded and the system asked for a reboot.
-7. After the reboot, Ubuntu couldn't install and I had to open 'Turn Windows Features on or off' and ticked the 'Windows Subsystem for Linux'.
+7. After the reboot, Ubuntu couldn't install and I had to open *Turn Windows Features on or off* and ticked the *Windows Subsystem for Linux*.
 8. I downloaded Ubuntu 20.04 from the Microsoft store.
 9. Then followed the steps to upgrade to Ubuntu 20.10. I didn't have the'update-manager-core package installed'. I used the information from this website, [https://www.linuxbabe.com/ubuntu/upgrade-ubuntu-20-04-to-ubuntu-20-10](https://www.linuxbabe.com/ubuntu/upgrade-ubuntu-20-04-to-ubuntu-20-10).
-10. At this point 'sudo do-release-upgrade', I kept getting error messages. I used 'sudo apt-get purge snapd' and  'sudo apt-get autoremove' repectively before reusing 'sudo do-release-upgrade' and upgrade began which took hours.
+10. At the point of  *'sudo do-release-upgrade'*, I kept getting error messages. I used **'sudo apt-get purge snapd'** and  **'sudo apt-get autoremove'** repectively before reusing **'sudo do-release-upgrade'** and upgrade began which took hours.
 11. After installing the required prerequisites, I started SageMath installation.
-12. It took me a while to figure out what step one was about as I had to watch YouTube videos. I deleted the first download I did and redownloaded in the Ubuntu terminaal. I also created a directory to store the SageMath.
+12. It took me a while to figure out what step one  of the SageMath installation guide meant, I had to watch YouTube videos. I deleted the first download I did from this website, [https://github.com/datascience-intro/how2_WindowsOS10-\_2SageMath-2021](https://github.com/datascience-intro/how2_WindowsOS10-_2SageMath-2021), and re-downloaded in the Ubuntu terminaal. I also created a directory to store the SageMath.
 13. I got an error so many times using **'make'** and **'make -j2'** so I decided to search online. After so many failed attempts, finally found the method below which worked. I also added modifications where necessary.
     * **'cd sage'**
     * **'make configure'**
@@ -23,7 +23,7 @@
 
 14. It started installation which took more than 5 hours.
 
-It took me over 48 hours to complete the steps as I had errors and made lots of mistakes.
+**It took me over 48 hours to complete the steps as I had errors and made lots of mistakes.**
 
 
 
