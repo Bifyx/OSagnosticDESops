@@ -25,19 +25,3 @@ Please do the following STEPS to document your installation of SageMath on your 
     - The main expectation is that you should be able to install SageMath on your local machine a lot faster by following the instructions you have given
  
 Further instructions, if needed, will follow shortly after the computer labs in Angstrom are tested. Please discuss in threads at the course instructure page so you can learn from one another.
-
-
-Installation of SageMath
-
-The following are the steps I took in installing SageMath
-
-I use a Windows system so I clicked on this website [https://github.com/datascience-intro/how2_WindowsOS10-\_2SageMath-2021](https://github.com/datascience-intro/how2_WindowsOS10-_2SageMath-2021)
-I downloaded the sage source code from this website.[https://github.com/datascience-intro/how2_WindowsOS10-\_2SageMath-2021](https://github.com/datascience-intro/how2_WindowsOS10-_2SageMath-2021)
-Using the above link, I used the information on: Ubuntu on Windows Subsystem for Linux (WSL) prerequisite installation
-I enabled hardware-assisted virtualization in my system. Mine is UEFI.
-Ran Powershell as an administrator and installed Windows Subsystem for Linux 'wsl --install'.
-Immediately, the Ubuntu downloaded and the system asked for a reboot.
-After the reboot, Ubuntu couldn't install and I had to open 'Turn Windows Features on or off' and ticked the 'Windows Subsystem for Linux'.
-I downloaded Ubuntu 20.04 from the Microsoft store.
-I then followed the steps to upgrade to Ubuntu 20.10. I didn't have the'update-manager-core package installed'. I used the information from this website, [https://www.linuxbabe.com/ubuntu/upgrade-ubuntu-20-04-to-ubuntu-20-10](https://www.linuxbabe.com/ubuntu/upgrade-ubuntu-20-04-to-ubuntu-20-10).
-At this point 'sudo do-release-upgrade', I kept getting error messages. I used 'sudo apt-get purge snapd' and  'sudo apt-get autoremove' repectively before reusing 'sudo do-release-upgrade' and upgrade began which took hours.
