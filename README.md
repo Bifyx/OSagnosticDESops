@@ -21,7 +21,7 @@
     * **'./configure --with-python=3'**
     * **'MAKE="make -j2" make'**
 
-14. It started installation which took more than 5 hours.
+14. It started installation which took more than 14 hours.
 
 **It took me over 48 hours to complete the steps as I had errors and made lots of mistakes.**
 
