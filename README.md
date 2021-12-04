@@ -1,5 +1,5 @@
 
-# Installation of SageMath by Bianca Okeke
+# Installation of SageMath 
 
 ### The following are the steps I took in installing SageMath
 
